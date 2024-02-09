@@ -31,6 +31,6 @@ export class BooksService {
     }
 
     public delete(id: string): QueryWithHelpers<HydratedDocument<BookDocument, {}, {}> | null, HydratedDocument<BookDocument, {}, {}>, {}, BookDocument> {
-        return this.BookModel.findOneAndRemove({ _id: id });
+        return this.BookModel.findOneAndDelete({ _id: id });
     }
 }
