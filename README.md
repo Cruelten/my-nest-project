@@ -1,6 +1,10 @@
 ## Netology
-Проект в папке src/library
-Получение книг по ссылке localhost:3000/books
+1 и 2 задание в app.controller.ts
+3 задание в папке /src/library/ - здесь не могу понять, почему система ругается на употребление Function в toValidate, хотя все работает исправно. Ошибка ниже:
+Don't use `Function` as a type. The `Function` type accepts any function-like value.
+It provides no type safety when calling the function, which can be a common source of bugs.
+It also accepts things like class declarations, which will throw at runtime as they will not be called with `new`.
+4 задание в папке src/library
 
 ## Installation
 
